@@ -1,6 +1,5 @@
 # Cypresswork
 Cypress Installation and project setup
-
 1. Download node (official website)
 2. Set node Home in Environmental variables
 3. Create Base Cypress working folder
@@ -21,4 +20,4 @@ Cypress Installation and project setup
 18. (in test runner you simply click the file and it automatically run through your browser)
 
 If you want to integrate your report Cypress with Github you can install github integration in cypress dashboard
-as example like i made in branch github pull request.
+as example like i made in branch Gitintegration pull request.

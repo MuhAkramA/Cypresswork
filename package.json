@@ -7,7 +7,7 @@
     "test": "node_modules\\.bin\\cypress run",
     "headTest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --browser chrome",
-    "recordDashBoardTest": "npm run test -- --record --key d68747b4-4fe5-4bb8-8926-ae8839b43bfc --reporter mochawesome"
+    "recordDashBoardTest": "npm run test -- --record --key c066b60d-9108-444a-9044-52a1aec3d482 --reporter mochawesome"
   },
   "author": "Akram",
   "license": "ISC",
