@@ -1,6 +1,5 @@
 # Cypresswork
 Cypress Installation and project setup
-=======
 1. Download node (official website)
 2. Set node Home in Environmental variables
 3. Create Base Cypress working folder
