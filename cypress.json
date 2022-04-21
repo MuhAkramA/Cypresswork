@@ -1,4 +1,7 @@
 {
   "reporter": "mochawesome",
-  "projectId": "2dce8o"
+  "projectId": "2dce8o",
+  "viewportWidth": 1940,
+    "viewportHeight": 900,
+    "video": false
 }
