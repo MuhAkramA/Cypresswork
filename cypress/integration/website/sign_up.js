@@ -8,7 +8,7 @@ import Sign_up from "../../support/pageobject/sign_up";
 
 // type definitions for custom commands like "createDefaultTodos"
 describe('login', function() {
-    it.only('regular register', function() {
+    it.only('reguler register', function() {
       const main= new Main();
       const sign= new Sign_up();
 
@@ -54,7 +54,7 @@ describe('login', function() {
       sign.verification_button().click()
     })
 
-    it('regular register without name', function() {
+    it('reguler register without name', function() {
       const main= new Main();
       const sign= new Sign_up();
 
@@ -96,7 +96,7 @@ describe('login', function() {
       })
     })
 
-    it('regular register without email', function() {
+    it('reguler register without email', function() {
       const main= new Main();
       const sign= new Sign_up();
 
@@ -137,7 +137,7 @@ describe('login', function() {
         })
     })
 
-    it('regular register without username', function() {
+    it('reguler register without username', function() {
       const main= new Main();
       const sign= new Sign_up();
 
@@ -178,7 +178,7 @@ describe('login', function() {
         })
     })
 
-    it('regular register without password', function() {
+    it('reguler register without password', function() {
       const main= new Main();
       const sign= new Sign_up();
 
@@ -219,7 +219,7 @@ describe('login', function() {
         })
     })
 
-    it('regular register without confirm password', function() {
+    it('reguler register without confirm password', function() {
       const main= new Main();
       const sign= new Sign_up();
 
@@ -260,7 +260,7 @@ describe('login', function() {
         })
     })
 
-    it('regular register password do not match', function() {
+    it('reguler register password do not match', function() {
       const main= new Main();
       const sign= new Sign_up();
 
