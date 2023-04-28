@@ -1,4 +1,4 @@
-class Login {
+class VIX {
     google_login(){
         return cy.get('.login-goog');}
     facebook_login(){
@@ -18,4 +18,4 @@ class Login {
     intercom_icon(){
         return cy.get('.intercom-launcher');}
     }
-    export default Login
+    export default VIX

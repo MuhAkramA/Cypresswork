@@ -25,3 +25,16 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 import 'cypress-file-upload';
+Cypress.Commands.add('login',function()  
+{
+    cy.session([Cypress.env('username'),Cypress.env('password')],function()
+    {
+        cy.visit('/login');
+        cy.get('[name="email"]').type(Cypress.env('username'))
+        cy.get('[name="password"]').type(Cypress.env('password'))
+        cy.get('[data-cy="login-submit-button"]').click()
+        cy.wait(3000)
+    })
+    
+     
+})
