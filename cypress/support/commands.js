@@ -34,7 +34,11 @@ Cypress.Commands.add('login',function()
         cy.get('[name="password"]').type(Cypress.env('password'))
         cy.get('[data-cy="login-submit-button"]').click()
         cy.wait(3000)
-    })
+    },
+    {
+        cacheAcrossSpecs: true
+    }
+    )
     
      
 })

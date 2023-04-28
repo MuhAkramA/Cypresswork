@@ -1,1 +1,1 @@
-You may access the automation script on website/VIX_payment.js
+You may access the automation script on e2e/website/VIX_payment.js
